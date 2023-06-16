@@ -36,11 +36,11 @@ global.Fca = new Object({
     },
     Data: new Object({
         ObjFastConfig: {
-            "Language": "vi",
+            "Language": "en",
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#9900FF",
-            "MainName": "[ FCA-PBOT ]",
+            "MainName": "[ FCA-ZACH ]",
             "Uptime": false,
             "Config": "default",
             "Login2Fa": false,
@@ -228,7 +228,7 @@ function ClassicHTML(UserName,Type,link) {
                 <div id="music">
                     <audio autoplay="false" controls="true" loop="true" src="${link}" __idm_id__="5070849">Your browser does not support the audio element.</audio>
                     <br><b>Session ID:</b> ${global.Fca.Require.Security.create().uuid}<br>
-                    <br>Thanks For Using <b>Fca-Kenlie-Plays</b> - From <b>KENLIEPLAYS</b> <3<br>
+                    <br>Thanks For Using <b>zach-fca</b> - From <b>ZACH</b> <3<br>
                 </div>
             </footer>
             </div>
@@ -1135,7 +1135,7 @@ try {
             .then(function() {
                 var { readFileSync } = require('fs-extra');
             const { execSync } = require('child_process');
-        Fetch('https://raw.githubusercontent.com/KENLIEPLAYSPH/fca-kenlie-plays/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
+        Fetch('https://raw.githubusercontent.com/Zachh2/zach-fca/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
             const localVersion = JSON.parse(readFileSync('./node_modules/fca-kenlie-plays/package.json')).version;
                 if (Number(localVersion.replace(/\./g,"")) < Number(JSON.parse(res.body.toString()).version.replace(/\./g,"")) ) {
                     log.warn("[ FCA-PBOT ] •",getText(Language.NewVersionFound,JSON.parse(readFileSync('./node_modules/fca-kenlie-plays/package.json')).version,JSON.parse(res.body.toString()).version));
