@@ -75,9 +75,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "fca-kenlie-plays@latest",
-    "name": "fca-kenlie-plays",
-    "escapedName": "fca-kenlie-plays",
+    "raw": "zach-fca@latest",
+    "name": "zach-fca",
+    "escapedName": "zach-fca",
     "rawSpec": "latest",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -88,12 +88,12 @@
   ],
   "_resolved": "https://registry.npmjs.org/fca-kenlie-plays/-/fca-kenlie-plays-32.1.1.tgz",
   "_shasum": "deae4ab7b267fa85a35311c1a48dde4e7ac2bb53",
-  "_spec": "fca-kenlie-plays@latest",
+  "_spec": "zach-fca@latest",
   "author": {
-    "name": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, KENLIEPLAYS"
+    "name": "zach, David, Maude, Benjamin, UIRI, KanzuWakazaki, KENLIEPLAYS"
   },
   "bugs": {
-    "url": "https://github.com/KENLIEPLAYSPH/fca-kenlie-plays/issues"
+    "url": "https://github.com/zachh2/zach-fca/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
