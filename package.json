@@ -1,9 +1,9 @@
 {
-  "_from": "fca-kenlie-plays@latest",
-  "_id": "fca-kenlie-plays@32.1.1",
+  "_from": "zach-fca@latest",
+  "_id": "zach-fca@32.1.1",
   "_inBundle": false,
   "_integrity": "sha512-bipCCx3+/jsz+SODaAQ/UJjqoQg59xOhETKUzoMaLerrsre+hzqDk/l5yE4RhdzXYcwRAOxNpyjhtVE9sH9GnA==",
-  "_location": "/fca-kenlie-plays",
+  "_location": "/zach-fca",
   "_phantomChildren": {
     "abort-controller": "3.0.0",
     "aproba": "1.2.0",
@@ -129,7 +129,7 @@
     "websocket-stream": "latest"
   },
   "deprecated": false,
-  "description": "Facebook Chat API has been remade by KENLIEPLAYS to prevent getting (available) and paying for accounts (why not?).",
+  "description": "Facebook Chat API has been remade by ZACH prevent getting (available) and paying for accounts (why not?).",
   "devDependencies": {
     "eslint": "latest",
     "mocha": "latest",
@@ -164,23 +164,23 @@
       ]
     }
   },
-  "homepage": "https://github.com/HarryWakazaki/fca-kenlie-plays#readme",
+  "homepage": "https://github.com/HarryWakazaki/zach-fca#readme",
   "keywords": [
     "Fca horizon",
     "fca-horizon-remake",
     "horizon fca",
     "horizon",
-    "Fca kenlieplays",
-    "fca-kenlie-plays",
-    "kenlieplays fca",
-    "kenlieplays"
+    "zach",
+    "zach-fca",
+    "zachh",
+    "fcazach"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "fca-kenlie-plays",
+  "name": "zach-fca",
   "repository": {
     "type": "git",
-    "url": "git://github.com/KENLIEPLAYSPH/fca-kenlie-plays.git"
+    "url": "git://github.com/zachh2/zach-fca.git"
   },
   "scripts": {
     "lint": "eslint **.js",
